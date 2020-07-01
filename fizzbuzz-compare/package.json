@@ -1,0 +1,17 @@
+{
+  "name": "fizzbuzz-compare",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_lib": "cd ../fizzbuzz && cargo test && cargo build --release",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "KrgKo <kowpun123@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ffi": "^2.3.0"
+  }
+}
